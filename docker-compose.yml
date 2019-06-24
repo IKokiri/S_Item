@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build: APP/
+    image: luizmendes/item:latest
+    ports:
+      - "9000:8000"
+  mysql:
+    image: mysql:5.6
+    environment:
+      MYSQL_ROOT_PASSWORD: SecretPW150
+      MYSQL_DATABASE: item
+    ports:
+      - "9001:3306"
