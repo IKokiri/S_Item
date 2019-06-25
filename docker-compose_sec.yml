@@ -1,7 +1,6 @@
 version: '3'
 services:
   app:
-    build: APP/
     image: luizmendes/item:latest
     ports:
       - "9000:8000"
