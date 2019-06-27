@@ -10,5 +10,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: SecretPW150
       MYSQL_DATABASE: item
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+      - ./data:/var/lib/mysql
     ports:
       - "9001:3306"
