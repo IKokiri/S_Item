@@ -24,7 +24,7 @@ O App pode ser executado no ambiente local e em Docker.
 
 ### Ambiente Docker
 
-Após execução do comando o container estará disponível na maquina. Para executar o container use o comando
+Para executar o container use o comando:
 
 ```
 docker run -p 9000:8000 luizmendes/item
