@@ -16,14 +16,6 @@ Para obter o ambiente docker, com o docker devidamente instalado, execute o coma
 $ docker push luizmendes/item:latest
 ```
 
-Após execução do comando o container estará disponível na maquina. Para executar o container use o comando
-
-```
-docker run -p 9000:8000 luizmendes/item
-```
-
-Este comando permique que você acesse o container a partir de sua maquina. O container estará disponivel na porta 9000 do seu localhost.
-
 ## Executando
 
 O App pode ser executado no ambiente local e em Docker.
@@ -31,6 +23,14 @@ O App pode ser executado no ambiente local e em Docker.
 ### Ambiente Local
 
 ### Ambiente Docker
+
+Após execução do comando o container estará disponível na maquina. Para executar o container use o comando
+
+```
+docker run -p 9000:8000 luizmendes/item
+```
+
+Este comando permique que você acesse o container a partir de sua maquina. O container estará disponivel na porta 9000 do seu localhost.
 
 ## Licença
 
