@@ -12,7 +12,7 @@ O App pode ser executado na maquina local e em um ambiente docker.
 
 Para obter o ambiente docker, com o docker devidamente instalado execute o comando no terminal:
 
- ```docker push luizmendes/item:latest```
+ ```$ docker push luizmendes/item:latest```
 
 
 ## Executando
